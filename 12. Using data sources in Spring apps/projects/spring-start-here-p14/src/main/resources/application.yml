@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-start-here-p14
+  datasource:
+    url: jdbc:mysql://localhost/spring_quickly?useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: sa
+    password: password
+
+  sql:
+    init:
+      mode: always
+
+custom:
+  datasource:
+    url: jdbc:mysql://localhost/spring_quickly?useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: sa
+    password: password
